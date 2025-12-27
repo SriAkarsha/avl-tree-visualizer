@@ -27,3 +27,5 @@ Helps students understand AVL Tree balancing and rotations visually.
 
 ## Author
 Sri Akarsha Vunyala
+<!-- trigger pages build -->
+
