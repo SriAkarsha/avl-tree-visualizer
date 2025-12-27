@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+    text-align: center;
+}
+
+/* Title */
+.title {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #1e3a8a;
+}
+
+/* Controls container */
+.controls {
+    margin: 20px;
+}
+
+/* Input */
+input {
+    padding: 10px;
+    width: 160px;
+    border-radius: 6px;
+    border: 1px solid #db7be4;
+    outline: none;
+}
+
+/* Buttons base */
+.btn {
+    padding: 10px 14px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Insert */
+.insert {
+    background-color: #16a34a;
+}
+
+/* Delete */
+.delete {
+    background-color: #dc2626;
+}
+
+/* Reset */
+.reset {
+    background-color: #f59e0b;
+}
+
+/* Hover effect */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Message */
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+/* SVG canvas */
+#treeCanvas {
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #db65eb;
+    background-color: rgb(245, 235, 245);
+}
+
+/* Nodes */
+circle {
+    transition: all 0.3s ease;
+}
